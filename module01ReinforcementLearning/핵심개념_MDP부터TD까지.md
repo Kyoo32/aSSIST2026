@@ -1,5 +1,8 @@
 ## Reinforcement Learning Master Note: From MDP to TD
 
+<img width="3664" height="1120" alt="Gemini_Generated_Image_5aso2p5aso2p5aso" src="https://github.com/user-attachments/assets/decb229f-bb08-46cf-a8b4-76141c53df8b" />
+
+
 ### **1. MDP (Markov Decision Process): 세계관의 정의**
 
 MDP는 의사결정 문제를 수학적으로 정의한 **프레임워크**입니다.
@@ -29,8 +32,7 @@ $$V_\pi(s) = \sum_{a \in A} \pi(a|s) \sum_{s' \in S, r \in R} p(s', r|s, a) [r +
 
 * **Bellman Optimality Equation (제어):** 가장 똑똑하게 행동했을 때 얻을 수 있는 최대 가치입니다.
 
-$$V^{*}(s) = \max_{a \in A} \sum_{s' \in S, r \in R} p(s', r | s, a) [r + \gamma V^{*}(s')]$$
-
+$$V^{opt}(s) = \max_{a \in A} \sum_{s', r} p(s', r | s, a) [r + \gamma V^{opt}(s')]$$
 
 
 > **📸 한 줄 비유:** 벨만 방정식은 게임의 '점수 계산기'입니다. 지금 내 위치가 수학적으로 얼마나 유리한지 알려줍니다.
@@ -71,6 +73,8 @@ $$V^{*}(s) = \max_{a \in A} \sum_{s' \in S, r \in R} p(s', r | s, a) [r + \gamma
 3. **지속적 업데이트:** 우리는 끊임없이 경험하고 정책을 업데이트하는 **Lifelong Learner**입니다.
 
 ---
+
+
 
 
 

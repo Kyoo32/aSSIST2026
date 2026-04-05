@@ -70,3 +70,39 @@
 ### 벡터자기회귀 Vector Autoregression, VAR (다변량)
 * 다변량 시계열 데이터를 분석하고 예측하기 위해 모든 변수들이 자기 자신뿐만 아니라 다른 변수들의 과거 값에 의존한다고 가정하는 모형
 * 구조적 벡터자기회귀모형(SVAR; Structural VAR): 변수를 절대값이 아니라 비율/변화율로 봄
+
+### Granger Causality
+* 한 변수의 과거 정보가 다른 변수의 미래 값을 예측하는 데 유의미한 정보를 제공하는지 평가
+* ONLY TIME SERIES
+
+### 충격반응함수(Impulse Response Function; IRF)
+* 충격반응 함수는 특정 변수에 발생한 일회성 충격(Shock)이 시간의 경과에 따라 시스템 내 다른 변수들에 미치는 영향을 나타내는 함수
+
+### 슬라이딩 윈도우(Sliding Window)
+* 과거 데이터를 입력(Input)으로 사용하고, 미래 데이터를 출력(Output)으로 만드는 과정
+
+### 칼만 필터
+* "예측(Predict)" + "갱신(Update)"의 반복
+* ex 안개 많은 환경에서 운전하기
+
+## 시계열 데이터와 교차검증 (Cross Validation)
+시계열에서는 일반적인 k-Fold CV 대신,
+* Rolling 방식 (Nested CV)
+* Walk-Forward 방식 (Blocking CV)를 사용해야 한다
+* 슬라이딩 크기 설정에 정답은 없으므로,
+* 데이터 특성과 실험 목적에 맞춰 조정한다
+* 일반적으로 slide=1을 많이 사용하되, overlap 문제를 인지해야 한다
+
+## 이상치(Outlier) 탐색
+### 표준화 점수(Z-score) 방식
+* Z > 3 이면 이상치로 간주
+
+### STL 분해(Seasonal & Trend decomposition using Losses)
+* Residual(잔차)를 가지고 이상치 판단
+
+## 회귀모델을 활용한 시계열 분석기법
+
+### 다중공선성 Multicollinearity
+* 독립변수(설명변수)들 간에 강한 상관관계가 있을 경우, 회귀계수의 추정이 불안정해지고 해석이 어려워지는 현상
+* Y = β0 + β1X1 + β2X2 + ϵ
+* X1과 X2가 서로 매우 유사하거나 선형결합이 되는 경우 -> 다중공선성 발생

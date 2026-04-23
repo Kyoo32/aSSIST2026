@@ -1,3 +1,4 @@
+- https://github.com/nhjung-phd/TimeSeriesAnalysis 
 - 시계열 분석(Time Series Analysis): 시간에 따라 관측된 데이터를 분석하여 과거 패턴을 파악하고, 이를 이용하여 미래를 예측하는 통계적 방법론
 
 ### 분류

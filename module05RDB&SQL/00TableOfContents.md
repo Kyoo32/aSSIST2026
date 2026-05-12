@@ -12,6 +12,9 @@
 - `08TextToSQLImprovementStrategies.md`: Text-to-SQL 정확도 개선 전략 3가지
 - `09MultiTurnChatbotAndSQLGuardrails.md`: 멀티턴 상태 관리와 SQL 보안 가드레일
 - `10GradioUI.md`: Gradio 선택 이유, Drive 저장, Hugging Face Spaces 배포
+- `11LangChainLCEL.md`: LCEL 개념, Runnable 유틸리티, 구조화 출력
+- `12LCELRAGChain.md`: LCEL 기반 RAG 체인 조립, 스트리밍, fallback, 구성요소
+- `13VannaIntro.md`: Vanna 개념, LlamaIndex 비교, 학습 자산 구조
 
 ### Quick Summary
 
@@ -27,3 +30,6 @@
 10. Text-to-SQL 품질은 스키마 보강, 예시 주입, 관련 테이블 축소로 크게 개선할 수 있다.
 11. 멀티턴 챗봇은 상태 관리가 핵심이고, SQL 보안은 정규식만으로 끝나지 않는다.
 12. 학습용 AI 데모는 Gradio로 빠르게 만들고, 영구 배포는 별도 플랫폼으로 넘기는 흐름이 실용적이다.
+13. LCEL은 체인을 조립식으로 구성하게 해 주고, 구조화 출력은 AI 결과를 코드 친화적으로 다루게 해 준다.
+14. RAG 체인은 검색, 포맷, 프롬프트, LLM, 파서를 조합한 파이프라인으로 이해하면 가장 쉽다.
+15. Vanna는 SQL 생성에 특화된 RAG 방식으로, DDL·문서·SQL 예시를 검색해 정확도를 높인다.

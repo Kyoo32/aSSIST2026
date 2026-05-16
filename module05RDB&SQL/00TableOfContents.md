@@ -15,6 +15,8 @@
 - `11LangChainLCEL.md`: LCEL 개념, Runnable 유틸리티, 구조화 출력
 - `12LCELRAGChain.md`: LCEL 기반 RAG 체인 조립, 스트리밍, fallback, 구성요소
 - `13VannaIntro.md`: Vanna 개념, LlamaIndex 비교, 학습 자산 구조
+- `14AdvancedRAGQueryAndRetrieval.md`: Advanced RAG 쿼리 변환, 하이브리드 검색, Re-rank
+- `15LangGraphConcept.md`: LCEL vs LangGraph, 조건 분기, 루프, Checkpointer
 - `project_starbucks_online_app/StarbucksOnlineApp_ERD.md`: 스타벅스 온라인 앱 통합 프로젝트 ERD
 - `project_starbucks_online_app/StarbucksOnlineApp_Analytics_EndToEnd.ipynb`: 스타벅스 온라인 앱 통합 Colab 실습
 
@@ -35,4 +37,6 @@
 13. LCEL은 체인을 조립식으로 구성하게 해 주고, 구조화 출력은 AI 결과를 코드 친화적으로 다루게 해 준다.
 14. RAG 체인은 검색, 포맷, 프롬프트, LLM, 파서를 조합한 파이프라인으로 이해하면 가장 쉽다.
 15. Vanna는 SQL 생성에 특화된 RAG 방식으로, DDL·문서·SQL 예시를 검색해 정확도를 높인다.
-16. 스타벅스 온라인 앱 통합 프로젝트는 합성 데이터 생성부터 Text-to-SQL, 멀티턴 챗봇까지 한 노트북에서 끝까지 실습하도록 설계되었다.
+16. Advanced RAG는 질문 변환과 검색 고도화를 함께 써서 기본 RAG의 재현율과 정밀도를 올린다.
+17. LangGraph는 LCEL보다 한 단계 더 나아가 조건 분기, 루프, 재시도, 상태 복구까지 다루는 에이전트 프레임워크다.
+18. 스타벅스 온라인 앱 통합 프로젝트는 합성 데이터 생성부터 Text-to-SQL, 멀티턴 챗봇까지 한 노트북에서 끝까지 실습하도록 설계되었다.

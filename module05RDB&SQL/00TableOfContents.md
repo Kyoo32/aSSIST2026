@@ -17,6 +17,7 @@
 - `13VannaIntro.md`: Vanna 개념, LlamaIndex 비교, 학습 자산 구조
 - `14AdvancedRAGQueryAndRetrieval.md`: Advanced RAG 쿼리 변환, 하이브리드 검색, Re-rank
 - `15LangGraphConcept.md`: LCEL vs LangGraph, 조건 분기, 루프, Checkpointer
+- `16LangSmithAndRagasMonitoring.md`: LangSmith 모니터링, Run/Trace, Ragas 4대 메트릭
 - `project_starbucks_online_app/StarbucksOnlineApp_ERD.md`: 스타벅스 온라인 앱 통합 프로젝트 ERD
 - `project_starbucks_online_app/StarbucksOnlineApp_Analytics_EndToEnd.ipynb`: 스타벅스 온라인 앱 통합 Colab 실습
 
@@ -40,3 +41,4 @@
 16. Advanced RAG는 질문 변환과 검색 고도화를 함께 써서 기본 RAG의 재현율과 정밀도를 올린다.
 17. LangGraph는 LCEL보다 한 단계 더 나아가 조건 분기, 루프, 재시도, 상태 복구까지 다루는 에이전트 프레임워크다.
 18. 스타벅스 온라인 앱 통합 프로젝트는 합성 데이터 생성부터 Text-to-SQL, 멀티턴 챗봇까지 한 노트북에서 끝까지 실습하도록 설계되었다.
+19. LangSmith는 실행 과정을 추적해 문제 원인을 찾게 해 주고, Ragas는 검색과 답변 품질을 네 가지 핵심 지표로 정량 평가하게 해 준다.

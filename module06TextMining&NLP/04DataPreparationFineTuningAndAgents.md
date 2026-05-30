@@ -1,9 +1,5 @@
 ## Data Preparation Fine Tuning And Agents
 
-### Source
-
-- `0523 & 0527 Text Mining and  NLP.md`
-
 ### 1. 데이터 정제
 
 메모는 "Data First" 관점을 강조한다.

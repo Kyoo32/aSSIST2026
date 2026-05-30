@@ -1,9 +1,5 @@
 ## Embedding Training And Retrieval Evaluation
 
-### Source
-
-- `0523 & 0527 Text Mining and  NLP.md`
-
 ### 1. 포지티브 샘플과 네거티브 샘플
 
 임베딩 학습은 어떤 쌍을 가깝게 둘지, 어떤 쌍을 멀게 둘지 정하는 문제다.

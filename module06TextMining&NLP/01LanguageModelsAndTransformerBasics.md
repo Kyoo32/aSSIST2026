@@ -1,10 +1,5 @@
 ## Language Models And Transformer Basics
 
-### Source
-
-- `0516 & 0522 Text Mining and  NLP.md`
-- `0523 & 0527 Text Mining and  NLP.md`
-
 ### 1. 언어모델
 
 언어모델은 가장 자연스러운 다음 단어를 예측하는 모델이다.

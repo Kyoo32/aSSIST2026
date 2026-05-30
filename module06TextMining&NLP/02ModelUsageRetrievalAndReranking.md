@@ -1,9 +1,5 @@
 ## Model Usage Retrieval And Reranking
 
-### Source
-
-- `0516 & 0522 Text Mining and  NLP.md`
-
 ### 1. 모델 읽기
 
 모델을 쓸 때는 가중치만 보는 게 아니라 설정 파일도 함께 읽어야 한다.

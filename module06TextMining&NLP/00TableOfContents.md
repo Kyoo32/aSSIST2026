@@ -2,10 +2,10 @@
 
 ### Topic Map
 
-- `01LanguageModelsAndTransformerBasics.md`: 언어모델 정의, Transformer 구조, GPT와 pretraining 기초
-- `02ModelUsageRetrievalAndReranking.md`: 모델 설정 읽기, tokenizer/chat template, 검색기와 리랭킹
-- `03EmbeddingTrainingAndRetrievalEvaluation.md`: 포지티브·네거티브 샘플, 대조학습, 검색 평가 지표
-- `04DataPreparationFineTuningAndAgents.md`: 데이터 정제, LoRA 중심 파인튜닝, 에이전트 관점
+- [01LanguageModelsAndTransformerBasics.md](01LanguageModelsAndTransformerBasics.md): 언어모델 정의, Transformer 구조, GPT와 pretraining 기초
+- [02ModelUsageRetrievalAndReranking.md](02ModelUsageRetrievalAndReranking.md): 모델 설정 읽기, tokenizer/chat template, 검색기와 리랭킹
+- [03EmbeddingTrainingAndRetrievalEvaluation.md](03EmbeddingTrainingAndRetrievalEvaluation.md): 포지티브·네거티브 샘플, 대조학습, 검색 평가 지표
+- [04DataPreparationFineTuningAndAgents.md](04DataPreparationFineTuningAndAgents.md): 데이터 정제, LoRA 중심 파인튜닝, 에이전트 관점
 
 ### Quick Summary
 
